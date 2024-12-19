@@ -1,0 +1,15 @@
+li{display: flex;
+   align-items: center;
+   justify-content:flex-start;
+    gap:20px}
+
+.l{display: flex;
+   flex-direction: column;
+  row-gap: 5px;}
+
+  .bt{background: #4ECDC4  ;
+      color: #203A43 ;
+      border:1px solid #203A43 ;
+     cursor: pointer;}
+
+      

@@ -8,7 +8,7 @@ function List() {
 
   // Function to add items to the list
   function add() {
-    const ip= document.getElementById("ip").value
+    const ip= document.getElementById("ip").value.trim();
       if(ip){   
        const up=ip.toUpperCase();
        const same=list.filter((item)=>item===up)  

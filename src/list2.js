@@ -6,7 +6,7 @@ export default function List2() {
     
       // Function to add items to the list
       function add() {
-        const ip2= document.getElementById("ip2").value
+        const ip2= document.getElementById("ip2").value.trim();
           if(ip2){   
            const up=ip2.toUpperCase();
            const same=list.filter((item)=>item===up)  

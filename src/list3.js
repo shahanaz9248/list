@@ -6,7 +6,7 @@ export default function List3() {
      
        // Function to add items to the list
        function add() {
-         const ip3= document.getElementById("ip3").value
+         const ip3= document.getElementById("ip3").value.trim();
            if(ip3){   
             const up=ip3.toUpperCase();
             const same=list.filter((item)=>item===up)  
